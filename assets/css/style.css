@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-image: url('../home.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .active {
+    border: 3px solid rgb(176, 27, 235);
+  }
+
+
+/********* HEADER *********/
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40%;
+    width: 100%;
+    padding: 25px 0 0 0;
+}
+
+.ancient {
+    width: 200px;
+    height: 260px;
+    margin: 0 auto;
+    background-size: cover;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.azathoth {
+    background-image: url('../Ancients/Azathoth.png');
+}
+.cthulhu {
+    background-image: url('../Ancients/Cthulthu.png');
+}
+.iogSothoth {
+    background-image: url('../Ancients/IogSothoth.png');
+}
+.shubNiggurath {
+    background-image: url('../Ancients/ShubNiggurath.png');
+}
+
+/******** END HEADER *********/
+
+/******** MAIN *********/
+
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 20%;
+    width: 100%;
+}
+
+.complexity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 35px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(84, 84, 19);
+    margin: 0 auto;
+    font-size: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/******** END MAIN *********/
+
+/******** FOOTER *********/
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40%;
+    width: 100%;
+}
+
+.current-card {
+    width: 200px;
+    height: 260px;
+    background-size: cover;
+    background-image: url('../mythicCardBackground.png');
+    border-radius: 10px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.last-card {
+    width: 200px;
+    height: 260px;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.tracker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 260px;
+    font-size: 25px;
+    gap: 5px;
+}
+
+.container-stage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: burlywood;
+}
+
+.dots-container {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+}
+
+.dot-green {
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(52, 156, 52);
+    border-radius: 50%;
+    align-items: center;
+}
+
+.dot-red {
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(215, 33, 33);
+    border-radius: 50%;
+    align-items: center;
+}
+
+.dot-blue {
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(29, 29, 164);
+    border-radius: 50%;
+    align-items: center;
+}
+
+.shuffle-the-card {
+    width: 200px;
+    color: blanchedalmond;
+    font-size: 25px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/******** END FOOTER *********/
