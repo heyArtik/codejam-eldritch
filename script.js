@@ -166,14 +166,19 @@ function shuffleTheCard() {
             cardGreen.forEach(value => {
                 if (value.difficulty != 'hard' && difficultie === 'easy') {
                     greensCardNotHardOrEasy.push(value.cardFace);
+                    greensCardNotHardOrEasy.sort(() => 0.5 - Math.random());
                 } else if(value.difficulty != 'easy' && difficultie === 'hard') {
                     greensCardNotHardOrEasy.push(value.cardFace);
+                    greensCardNotHardOrEasy.sort(() => 0.5 - Math.random());
                 } else if(difficultie === 'normal') { 
                     greensCardNotHardOrEasy.push(value.cardFace);
+                    greensCardNotHardOrEasy.sort(() => 0.5 - Math.random());
                 } else if(value.difficulty === 'easy' && difficultie === 'veryEasy') {
                     greensCardNotHardOrEasy.push(value.cardFace);
+                    greensCardNotHardOrEasy.sort(() => 0.5 - Math.random());
                 } else if(value.difficulty === 'hard' && difficultie === 'veryHard') {
                     greensCardNotHardOrEasy.push(value.cardFace);
+                    greensCardNotHardOrEasy.sort(() => 0.5 - Math.random());
                 }
             })
                 if(greensCardNotHardOrEasy.length  < item.firstStage.greenCards + item.secondStage.greenCards + item.thirdStage.greenCards) {
@@ -204,14 +209,19 @@ function shuffleTheCard() {
             cardBrown.forEach(value => {
                 if (value.difficulty != 'hard' && difficultie === 'easy') {
                     brownsCardNotHardOrEasy.push(value.cardFace);
+                    brownsCardNotHardOrEasy.sort(() => 0.5 - Math.random());
                 } else if(value.difficulty != 'easy' && difficultie === 'hard') {
                     brownsCardNotHardOrEasy.push(value.cardFace);
+                    brownsCardNotHardOrEasy.sort(() => 0.5 - Math.random());
                 } else if(difficultie === 'normal') {
                     brownsCardNotHardOrEasy.push(value.cardFace);
+                    brownsCardNotHardOrEasy.sort(() => 0.5 - Math.random());
                 } else if(value.difficulty === 'easy' && difficultie === 'veryEasy') {
                     brownsCardNotHardOrEasy.push(value.cardFace);
+                    brownsCardNotHardOrEasy.sort(() => 0.5 - Math.random());
                 } else if(value.difficulty === 'hard' && difficultie === 'veryHard') {
                     brownsCardNotHardOrEasy.push(value.cardFace);
+                    brownsCardNotHardOrEasy.sort(() => 0.5 - Math.random());
                 }
             })
 
@@ -243,14 +253,19 @@ function shuffleTheCard() {
             cardBlue.forEach(value => {
                 if (value.difficulty != 'hard' && difficultie === 'easy') {
                     bluesCardNotHardOrEasy.push(value.cardFace);
+                    brownsCardNotHardOrEasy.sort(() => 0.5 - Math.random());
                 } else if(value.difficulty != 'easy' && difficultie === 'hard') {
                     bluesCardNotHardOrEasy.push(value.cardFace);
+                    brownsCardNotHardOrEasy.sort(() => 0.5 - Math.random());
                 } else if(difficultie === 'normal') {
                     bluesCardNotHardOrEasy.push(value.cardFace);
+                    brownsCardNotHardOrEasy.sort(() => 0.5 - Math.random());
                 } else if(value.difficulty === 'easy' && difficultie === 'veryEasy') {
                     bluesCardNotHardOrEasy.push(value.cardFace);
+                    brownsCardNotHardOrEasy.sort(() => 0.5 - Math.random());
                 } else if(value.difficulty === 'hard' && difficultie === 'veryHard') {
                     bluesCardNotHardOrEasy.push(value.cardFace);
+                    brownsCardNotHardOrEasy.sort(() => 0.5 - Math.random());
                 }
             })
 
